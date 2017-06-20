@@ -1,0 +1,25 @@
+{
+  "name": "gsi-nicolas-ackermann",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolasackermann/GSI-Nicolas-Ackermann.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolasackermann/GSI-Nicolas-Ackermann/issues"
+  },
+  "homepage": "https://github.com/Nicolasackermann/GSI-Nicolas-Ackermann#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "pug": "^2.0.0-rc.2"
+  }
+}
