@@ -1,12 +1,17 @@
-body {
-  background-color: black; }
-
 button {
   background-color: #ba1a17;
   border-color: #ba1a17;
   border-radius: 8px;
   color: white !important;
   padding: 8px; }
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+p {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif; }
 
 .navigation {
   position: fixed;
@@ -51,17 +56,50 @@ button {
     font-size: 22px; }
   .header hr {
     width: 180px; }
+  .header button {
+    background-color: #ba1a17;
+    border-color: #ba1a17;
+    border-radius: 8px;
+    color: white !important;
+    padding: 8px;
+    margin-top: 12px; }
 
-.section {
+.uberuns {
   background-color: #ba1a17;
   text-align: center;
   padding-top: 120px;
   padding-bottom: 120px; }
-  .section h2 {
+  .uberuns h2 {
     color: white;
     margin-bottom: 64px;
     text-shadow: 3px 3px 6px #444444; }
-  .section p {
+  .uberuns p {
     color: white;
     font-size: 18px;
     text-shadow: 3px 3px 6px #444444; }
+
+.leistungen {
+  padding-top: 180px;
+  padding-bottom: 180px; }
+  .leistungen li {
+    float: left;
+    list-style: none; }
+  .leistungen img {
+    margin-bottom: 12px; }
+
+.footer {
+  background-color: #333333;
+  padding-top: 32px;
+  padding-bottom: 32px; }
+  .footer a {
+    color: white;
+    margin-right: 12px; }
+  .footer a:hover {
+    color: #ba1a17;
+    text-decoration: none; }
+  .footer h2 {
+    color: #ba1a17;
+    margin-left: 38px; }
+  .footer li {
+    color: white;
+    list-style: none; }
